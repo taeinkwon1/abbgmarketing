@@ -406,7 +406,7 @@ fieldset.field { border: 0; margin: 0; padding: 0; }
       </div>
       <div class="reasons">
         <article class="reason rv"><div class="ph"><img src="img/scene_shelf.jpg" alt="햇살 드는 욕실 타일 선반 위의 라일락 반달 샴푸바" loading="lazy"></div><span class="tag"><span class="hm" style="background:var(--lilac)"></span>끌림</span><h3>꺼내 두고 싶은 반달</h3><p>샴푸 통 대신 선반 위에 하나. 두고 보고 싶은 모양으로 만들었어요.</p></article>
-        <article class="reason rv"><div class="ph"><img src="img/scene_hair.jpg" alt="젖은 머리에 반달 샴푸바를 문지르는 모습" loading="lazy"></div><span class="tag"><span class="hm" style="background:var(--butter)"></span>망설임 해소</span><h3>고체인데 뻑뻑하지 않아요</h3><p>PH 5–6 약산성 신데트. 고체 샴푸를 안 쓰던 가장 큰 이유부터 풀었어요.</p></article>
+        <article class="reason rv"><div class="ph"><img src="img/scene_hair.jpg" alt="젖은 머리에 반달 샴푸바를 문지르는 모습" loading="lazy"></div><span class="tag"><span class="hm" style="background:var(--butter)"></span>망설임 해소</span><h3>고체인데 뻑뻑하지 않아요</h3><p>약산성 신데트. 고체 샴푸를 안 쓰던 가장 큰 이유부터 풀었어요.</p></article>
         <article class="reason rv"><div class="ph"><img src="img/scene_dish_v2.jpg" alt="비누받침 위, 라일락이 한쪽만 닳아 버터가 드러난 젖은 반달 샴푸바" loading="lazy"></div><span class="tag"><span class="hm" style="background:var(--mint)"></span>재미</span><h3>쓸수록 다음 색이 드러나요</h3><p>라일락 → 버터 → 민트 → 피치. 아무렇게나 문질러도 바깥부터 닳아요.</p></article>
         <article class="reason rv"><div class="ph"><img src="img/scene_peach_v2.jpg" alt="피치 조각만 남은 비누받침 옆에 도착한 새 라일락 반달 상자" loading="lazy" style="object-position:62% 50%"></div><span class="tag"><span class="hm" style="background:var(--peach)"></span>재구매</span><h3>피치가 보이면, 주문할 때</h3><p>피치 코어가 보이면 약 2주 남았다는 신호. 떨어지기 전에 다음 바를 준비해요.</p></article>
       </div>
@@ -542,7 +542,7 @@ fieldset.field { border: 0; margin: 0; padding: 0; }
         <div class="layer"><span class="hm" style="background:var(--mint)"></span><b>Inner</b><span>민트 · 절반쯤 썼을 때</span></div>
         <div class="layer"><span class="hm" style="background:var(--peach)"></span><b>Core</b><span>피치 · 보이면 약 2주 남음</span></div>
       </div>
-      <dl class="specs"><dt>처방</dt><dd>PH 5–6 약산성 신데트</dd><dt>사용 기간</dt><dd>하루 1회 기준 약 10주 (예시)</dd><dt>포장</dt><dd>재생 크라프트 박스 · 반달 창</dd></dl>
+      <dl class="specs"><dt>처방</dt><dd>약산성 신데트</dd><dt>사용 기간</dt><dd>하루 1회 기준 약 10주 (예시)</dd><dt>포장</dt><dd>재생 크라프트 박스 · 반달 창</dd></dl>
       <div class="buy-row">
         <div class="qty"><button type="button" id="qty-minus" aria-label="수량 줄이기">−</button><output id="qty">1</output><button type="button" id="qty-plus" aria-label="수량 늘리기">+</button></div>
         <button class="btn" type="button" id="pdp-add">장바구니 담기</button>
@@ -716,7 +716,7 @@ fieldset.field { border: 0; margin: 0; padding: 0; }
   window.addEventListener("hashchange", route);
 
   /* ---------- marquee ---------- */
-  const words = [["Lilac", "var(--lilac)"], ["Butter", "var(--butter)"], ["Mint", "var(--mint)"], ["Peach", "var(--peach)"], ["PH 5–6", "var(--paper)"], ["No plastic bottle", "var(--paper)"]];
+  const words = [["Lilac", "var(--lilac)"], ["Butter", "var(--butter)"], ["Mint", "var(--mint)"], ["Peach", "var(--peach)"], ["약산성", "var(--paper)"], ["No plastic bottle", "var(--paper)"]];
   const seq = words.map(([w, c]) => `<span><b style="background:${c}"></b>${w}</span>`).join("");
   $("marquee").innerHTML = seq + seq;
 
