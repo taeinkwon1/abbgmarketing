@@ -7,8 +7,12 @@
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Noto+Serif+KR:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap">
 <style>
+[hidden] { display: none !important; }
+@font-face { font-family: "Pretendard"; src: url("fonts/PretendardVariable.woff2") format("woff2-variations"), url("fonts/PretendardVariable.woff2") format("woff2"); font-weight: 45 920; font-display: swap; }
+@font-face { font-family: "Pretendard Digits"; src: url("fonts/PretendardVariable.woff2") format("woff2-variations"), url("fonts/PretendardVariable.woff2") format("woff2"); font-weight: 45 920; font-display: swap; unicode-range: U+0030-0039, U+0025, U+20A9; }
+
 /* Layout: image-led. Full-bleed scenes, arch-framed photos, one pinned WebGL bar that wears as you scroll. Light-only by design. */
 :root {
   --paper: #FFFFFF;
@@ -20,8 +24,8 @@
   --butter: #E7D8AB;
   --mint: #A2D7BE;
   --peach: #E7BAA6;
-  --display: "Instrument Serif", "Noto Serif KR", Georgia, "Times New Roman", serif;
-  --body: "Instrument Serif", "Noto Serif KR", "AppleMyungjo", Georgia, serif;
+  --display: "Pretendard Digits", "Instrument Serif", "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", serif;
+  --body: "Pretendard Digits", "Instrument Serif", "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", serif;
   --wrap: 1240px;
   color-scheme: light;
 }
